@@ -2,11 +2,15 @@
     <string name="app_name">MyApplication</string>
     <string name="mylogo">FLASH</string>
     <string name="userNameField">user name</string>
+    <string name="userName_emailField">user name/email</string>
     <string name="passwordFiled">password</string>
     <string name="passwordForgtrenBTN">forgotten</string>
     <string name="logInBTN">login</string>
     <string name="user">ESPOIR D</string>
     <string name="stat">OFF</string>
     <string name="picdesc">user</string>
-
+    <string name="requestPasswordBtn">request</string>
+    <string name="requestPasswordTxt">Password request</string>
+    <string name="requestPasswordViewTxt">Thank!      please check your email or sms</string>
+    <string name="swictStat">OFF</string>
 </resources>

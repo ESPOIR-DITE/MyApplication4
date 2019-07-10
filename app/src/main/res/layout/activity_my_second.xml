@@ -34,8 +34,17 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="114dp"
+                android:contentDescription="@string/picdesc"
                 app:srcCompat="@drawable/pic_user" />
+
+            <TextView
+                android:id="@+id/userStat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
 
 
         </LinearLayout>
@@ -49,11 +58,15 @@
             android:layout_alignEnd="@+id/liner1"
             android:layout_alignRight="@+id/liner1"
             android:layout_alignBottom="@+id/liner1"
-            android:layout_marginStart="138dp"
-            android:layout_marginLeft="138dp"
-            android:layout_marginEnd="190dp"
-            android:layout_marginRight="190dp"
-            android:layout_marginBottom="-38dp" />
+            android:layout_marginStart="157dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginEnd="171dp"
+            android:layout_marginRight="171dp"
+            android:layout_marginBottom="-36dp"
+            android:background="#ffff"
+            android:checked="true"
+            android:textOff="Off"
+            android:textOn="On" />
 
 
     </RelativeLayout>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewActivity"></activity>
+        <activity android:name=".PasswordReqeust"></activity>
+        <activity android:name=".NewActivity" />
         <activity android:name=".MySecond" />
         <activity android:name=".MainActivity">
             <intent-filter>
