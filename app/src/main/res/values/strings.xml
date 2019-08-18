@@ -13,4 +13,6 @@
     <string name="requestPasswordTxt">Password request</string>
     <string name="requestPasswordViewTxt">Thank!      please check your email or sms</string>
     <string name="swictStat">OFF</string>
+    <string name="btn_search">pick from the map</string>
+    <string name="title_activity_my_location">Map</string>
 </resources>
