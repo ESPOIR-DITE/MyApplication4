@@ -16,6 +16,7 @@ public class MySecond extends AppCompatActivity {
     private TextView statLine;
     private boolean stat;
     private Button search_btn;
+    private Button dashboard;
     Intent intent;
 
     @Override
@@ -25,6 +26,10 @@ public class MySecond extends AppCompatActivity {
         simpleSwitch = (Switch) findViewById(R.id.switch1);
         statLine = (TextView) (findViewById(R.id.userStat));
         search_btn=(Button) (findViewById(R.id.btn_search1));
+        dashboard=(Button) (findViewById(R.id.button2));
+
+
+
 
         simpleSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -46,6 +51,11 @@ public class MySecond extends AppCompatActivity {
             }
         });
 
+
+    }
+    public void dashboard(View v) {
+        intent =new Intent(this,Dashboard.class);
+        startActivity(intent);
 
     }
     public void myswitch(View view) {
